@@ -37,6 +37,4 @@ ADMIN - Admin Kullanıcının ID'si
 ### 💠 Credits
 [Aylak](https://t.me/iaylak) Geliştiren
 
-By [DAN](https://t.me/haskell) 
-
 [Pyrogram](https://github.com/pyrogram/pyrogram) Kütüphane
