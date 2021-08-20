@@ -1,15 +1,15 @@
 {
-  "name": "pmchatbot",
-  "description": "Personal Message Chatting robot. Create your fork now",
+  "name": "PMChatBot",
+  "description": "Kişisel Mesaj Sohbet robotu. PM Mesajlarından rahatsız olmaya başladıysanız sorununuzu çözer.",
   "keywords": ["telegram", "pm", "chat", "bot", "open", "source"],
-  "website": "https://github.com/m4mallu/PMChatbot",
-  "repository": "https://github.com/m4mallu/PMChatbot",
+  "website": "https://github.com/aylak-github/PMChatbot",
+  "repository": "https://github.com/aylak-github/PMChatbot",
   "env": {
-        "APP_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
-        "ADMIN": {"description": "Admin user ID for incoming queries","required": true},
-        "ENV": {"description": "Set this to ANYTHING","value": "ANYTHING"}
+        "APP_ID": {"description": "Bu değeri şurdan alın. https://my.telegram.org ", "required": true},
+        "API_HASH": {"description": "Bu değeri şırdan alın. https://my.telegram.org" , "required": true},
+        "TG_BOT_TOKEN": {"description": "BotFather botundan oluşturduğunuz botun tokeni ","required": true},
+        "ADMIN": {"description": "Botu kullanacak kişinin/Adminin ID'si","required": true},
+        "ENV": {"description": "Şu şekilde ayarlayın: ANYTHING","value": "ANYTHING"}
   },
   "buildpacks": [
     {"url": "heroku/python"}
