@@ -1,39 +1,42 @@
-# 🤖 PM Chat Bot 🤖
-A Simple Bot that can be used as a personal assistant for managing Personal Messages.
+# 🤖 PM Sohbet Botu 🤖
+Kişisel Mesajları yönetmek için kişisel asistan olarak kullanılabilecek Basit Bir Bot. 
 
-### 💠 HELP
-In the busy schedules of Noobs, it can't accept receiving Personal messages from unwanted or unnecessary
-users all time. This bot is a solution for the problem. All the personal messages can be managed through
-this bot, and our personal chat will be safe and clean.
+### 💠 YARDIM
+Kullanıcılar yoğun zamanlarında, istenmeyen veya gereksiz kişisel mesajlar almayı kabul edemez. Bu bot sorun için bir çözümdür. Tüm kişisel mesajlar pm üzerinden yönetilebilir, bu bot sayesinde kişisel sohbetleriniz güvenli ve temiz olacak.
+ 
 
-### Deploying on Heroku:
+### Heroku Üzerinden Deploy:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m4mallu/PMChatbot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/aylak-github/PMChatbot)
 
-### 💠 USAGE
+### 💠 KULLANIM
 
-- Users can pm to the bot via text or media messages.
-- Bot will send the message to the admin user id as pm.
-- Admin need to reply as **reply to the message** received in the bot (Text & Media)
-- The replied message will be sent to the user as pm in the bot.
-- Command ```/info``` as a reply to any chat received will give the basic info about the Pm user.(Admin Only)
+- Kullanıcılar bota metin veya medya mesajları aracılığıyla pm gönderebilir. 
+- Bot, iletiyi yönetici kullanıcı kimliğine pm olarak gönderir.
+- Adminin cevap vermesi için **mesajı yanıtlayarak** dönüş yapması gerekir (Yazı veya medyaya)
+- Yanıtlanan mesaj kullanıcıya botta pm olarak gönderilecektir. 
+- Alınan herhangi bir sohbete yanıt olarak ```/info``` komutu pm kullanıcısı hakkında temel bilgileri verecektir. (Sadece Admin) 
 
 
-### 💠 Bot Commands 
+### 💠 Bot Komutları
 
 ```
-# User Commmands
-/start or /help- Start Message
+# Kullanıcı Komutları
+/start ya da /help- Başlatıcı Mesajı
 
-# Admin Commmands
-/info - Basic Information about the user
+# Admin Komutları
+/info - Kullanıcı hakkında temel bilgileri verir. 
 
 #vars
-TG_BOT_TOKEN - Your Bot Token
-APP_ID - Your APP ID
-API_HASH - Your API Hash
-ADMIN - Admin User Id.
+TG_BOT_TOKEN - PM Botunuzun Bot Token'i
+APP_ID - Sizin API ID'niz
+API_HASH - Sizin API HASH'nız
+ADMIN - Admin Kullanıcının ID'si
 
 ```
 ### 💠 Credits
-[DAN](https://t.me/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram) Library
+[Aylak](https://t.me/iaylak) Geliştiren
+
+By [DAN](https://t.me/haskell) 
+
+[Pyrogram](https://github.com/pyrogram/pyrogram) Kütüphane
