@@ -6,8 +6,8 @@
   "repository": "https://github.com/aylak-github/PMChatbot",
   "logo": "https://telegra.ph/file/50f730367387c0cd3dc26.jpg",
   "env": {
-        "APP_ID": {"description": "Bu değeri şurdan alın. https://my.telegram.org ", "required": true},
-        "API_HASH": {"description": "Bu değeri şırdan alın. https://my.telegram.org" , "required": true},
+        "APP_ID": {"description": "Bu değeri şuradan alın. https://my.telegram.org ", "required": true},
+        "API_HASH": {"description": "Bu değeri şuradan alın. https://my.telegram.org" , "required": true},
         "TG_BOT_TOKEN": {"description": "BotFather botundan oluşturduğunuz botun tokeni ","required": true},
         "ADMIN": {"description": "Botu kullanacak kişinin/Adminin ID'si","required": true},
         "ENV": {"description": "Şu şekilde ayarlayın: ANYTHING","value": "ANYTHING"}
