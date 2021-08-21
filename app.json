@@ -4,6 +4,7 @@
   "keywords": ["telegram", "pm", "chat", "bot", "open", "source"],
   "website": "https://github.com/aylak-github/PMChatbot",
   "repository": "https://github.com/aylak-github/PMChatbot",
+  "logo": "https://telegra.ph/file/50f730367387c0cd3dc26.jpg",
   "env": {
         "APP_ID": {"description": "Bu değeri şurdan alın. https://my.telegram.org ", "required": true},
         "API_HASH": {"description": "Bu değeri şırdan alın. https://my.telegram.org" , "required": true},
